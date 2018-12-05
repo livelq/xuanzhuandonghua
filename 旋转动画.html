@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>旋转动画</title>
+	<style>
+	/*.div1{
+		-webkit-perspective: 1000px;
+	}*/
+	.img{
+		width: 200px;
+		height: 120px;
+		-webkit-animation: picture 20s linear infinite  /*名字 20s转完 匀速 无限次*/
+		/*-webkit-transform-style:preserve-3d;*/
+		/*-webkit-transition:all 5s linear;*/
+	}
+	
+	@-webkit-keyframes picture {
+		0%{-webkit-transform: rotateY(0deg);
+		}
+		100%{-webkit-transform: rotateY(360deg);
+		}
+	}
+	img{               /*为图片统一设置大小*/
+		width: 200px;
+		height: 120px;
+	}
+	</style>
+</head>
+<body>
+<div class="div1">
+<div class="img">
+<img src="E:/刘茜的web/代码/旋转动画/图片/1.jpg">
+<img src="E:/刘茜的web/代码/旋转动画/图片/2.jpg">
+<img src="E:/刘茜的web/代码/旋转动画/图片/3.jpg">
+<img src="E:/刘茜的web/代码/旋转动画/图片/4.jpg">
+<img src="E:/刘茜的web/代码/旋转动画/图片/5.jpg">
+<img src="E:/刘茜的web/代码/旋转动画/图片/6.jpg">
+<img src="E:/刘茜的web/代码/旋转动画/图片/7.jpg">
+<img src="E:/刘茜的web/代码/旋转动画/图片/8.jpg">
+</div>
+</div>
+</body>
+</html>
